@@ -1,10 +1,14 @@
-namespace Spotifei.Model;
-public class Musica
+namespace Spotifei.Model
 {
-    public int Id { get; set; }
-    public string Titulo { get; set; }
-    public int DuracaoSegundos { get; set; }
-    public int AlbumId { get; set; }
-    public Album Album { get; set; }
-    public List<PlaylistMusica> PlaylistsMusicas { get; set; }
+    public class Musica
+    {
+        public int Id { get; set; }
+        public string Titulo { get; set; } = string.Empty;
+        public int DuracaoSegundos { get; set; }
+
+        public int AlbumId { get; set; }
+        public Album Album { get; set; } = null!;
+
+        public List<PlaylistMusica> PlaylistsMusicas { get; set; } = new();
+    }
 }

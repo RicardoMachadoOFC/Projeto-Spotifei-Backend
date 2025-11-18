@@ -23,11 +23,11 @@ namespace Spotifei.Migrations
 
             modelBuilder.Entity("Spotifei.Model.Album", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AnoLancamento")
                         .HasColumnType("int");
@@ -39,7 +39,7 @@ namespace Spotifei.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("ArtistaId");
 

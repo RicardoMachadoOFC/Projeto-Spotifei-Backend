@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Spotifei.Model;
-class SpotifeiContext : DbContext
+public class SpotifeiContext : DbContext
 {
     private string stringConexao = 
-        "Server=localhost;Port=3306;Database=SpotifeiDB;Uid=root;Pwd=xrtornado";
+        "Server=localhost;Port=3306;Database=SpotifeiDB;Uid=root;Pwd=1234";
+        
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

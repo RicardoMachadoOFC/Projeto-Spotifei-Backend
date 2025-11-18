@@ -4228,23 +4228,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jvmel\\.nuget\\packages\\": {},
+    "C:\\Users\\cadin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Spotifei-Fullstack\\Backend\\Projeto-Spotifei-Backend\\Spotifei\\Spotifei.csproj",
+      "projectUniqueName": "C:\\Users\\cadin\\Projeto-Spotifei-Backend\\Spotifei\\Spotifei.csproj",
       "projectName": "Spotifei",
-      "projectPath": "C:\\Spotifei-Fullstack\\Backend\\Projeto-Spotifei-Backend\\Spotifei\\Spotifei.csproj",
-      "packagesPath": "C:\\Users\\jvmel\\.nuget\\packages\\",
-      "outputPath": "C:\\Spotifei-Fullstack\\Backend\\Projeto-Spotifei-Backend\\Spotifei\\obj\\",
+      "projectPath": "C:\\Users\\cadin\\Projeto-Spotifei-Backend\\Spotifei\\Spotifei.csproj",
+      "packagesPath": "C:\\Users\\cadin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cadin\\Projeto-Spotifei-Backend\\Spotifei\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jvmel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cadin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4318,7 +4318,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

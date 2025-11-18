@@ -1,11 +1,12 @@
-namespace Spotifei.Model;
-public class PlaylistMusica
+namespace Spotifei.Model
 {
-    public int PlaylistId { get; set; }
-    public int MusicaId { get; set; }
+    public class PlaylistMusica
+    {
+        public int PlaylistId { get; set; }
+        public int MusicaId { get; set; }
 
-
-    public Playlist Playlist { get; set; }
-    public Musica Musica { get; set; }
-   
+        // EF vai popular essas propriedades, então usamos null-forgiving
+        public Playlist Playlist { get; set; } = null!;
+        public Musica Musica { get; set; } = null!;
+    }
 }
