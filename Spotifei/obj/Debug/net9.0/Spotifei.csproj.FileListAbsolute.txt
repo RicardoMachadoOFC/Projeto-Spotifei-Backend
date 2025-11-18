@@ -1,0 +1,14 @@
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\bin\Debug\net9.0\Spotifei.exe
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\bin\Debug\net9.0\Spotifei.deps.json
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\bin\Debug\net9.0\Spotifei.runtimeconfig.json
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\bin\Debug\net9.0\Spotifei.dll
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\bin\Debug\net9.0\Spotifei.pdb
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\Spotifei.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\Spotifei.AssemblyInfoInputs.cache
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\Spotifei.AssemblyInfo.cs
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\Spotifei.csproj.CoreCompileInputs.cache
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\Spotifei.dll
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\refint\Spotifei.dll
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\Spotifei.pdb
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\Spotifei.genruntimeconfig.cache
+C:\Users\cadin\OneDrive\Documentos\Spotifei Back\Projeto-Spotifei-Backend\Spotifei\obj\Debug\net9.0\ref\Spotifei.dll
