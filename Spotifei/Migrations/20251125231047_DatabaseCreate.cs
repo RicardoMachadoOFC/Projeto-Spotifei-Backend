@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Spotifei.Migrations
 {
     /// <inheritdoc />
-    public partial class CriacaoInicialSpotifei : Migration
+    public partial class DatabaseCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -74,7 +74,7 @@ namespace Spotifei.Migrations
                 name: "Albuns",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Titulo = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -83,7 +83,7 @@ namespace Spotifei.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Albuns", x => x.id);
+                    table.PrimaryKey("PK_Albuns", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Albuns_Artistas_ArtistaId",
                         column: x => x.ArtistaId,
@@ -151,7 +151,7 @@ namespace Spotifei.Migrations
                 {
                     PlaylistId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nome = table.Column<string>(type: "longtext", nullable: false)
+                    Titulo = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     UsuarioId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -185,7 +185,7 @@ namespace Spotifei.Migrations
                         name: "FK_Musicas_Albuns_AlbumId",
                         column: x => x.AlbumId,
                         principalTable: "Albuns",
-                        principalColumn: "id",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");

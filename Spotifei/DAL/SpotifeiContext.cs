@@ -3,7 +3,7 @@ using Spotifei.Model;
 public class SpotifeiContext : DbContext
 {
     private string stringConexao = 
-        "Server=localhost;Port=3306;Database=SpotifeiDB;Uid=root;Pwd=1234";
+        "Server=localhost;Port=3306;Database=SpotifeiDB;Uid=root;Pwd=xrtornado";
         
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

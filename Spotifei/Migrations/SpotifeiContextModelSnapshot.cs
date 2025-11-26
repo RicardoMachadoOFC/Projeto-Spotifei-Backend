@@ -179,7 +179,7 @@ namespace Spotifei.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("PlaylistId"));
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("Titulo")
                         .IsRequired()
                         .HasColumnType("longtext");
 

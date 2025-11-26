@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Spotifei.Migrations
 {
     [DbContext(typeof(SpotifeiContext))]
-    [Migration("20251118200935_CriacaoInicialSpotifei")]
-    partial class CriacaoInicialSpotifei
+    [Migration("20251125231047_DatabaseCreate")]
+    partial class DatabaseCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,11 +26,11 @@ namespace Spotifei.Migrations
 
             modelBuilder.Entity("Spotifei.Model.Album", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AnoLancamento")
                         .HasColumnType("int");
@@ -42,7 +42,7 @@ namespace Spotifei.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("ArtistaId");
 
@@ -182,7 +182,7 @@ namespace Spotifei.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("PlaylistId"));
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("Titulo")
                         .IsRequired()
                         .HasColumnType("longtext");
 
